@@ -27,5 +27,5 @@ let capAmerica = {
 
 console.log(capAmerica["Age"])
 console.log(capAmerica["Friends"])
-console.log(capAmerica["address"])
+console.log(capAmerica["address"]['city'])
 capAmerica["sayHi"]()
