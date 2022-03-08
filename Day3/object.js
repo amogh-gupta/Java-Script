@@ -28,13 +28,14 @@ let capAmerica = {
 }
 
 // Ways to access Objects
+// object.["key"]
 console.log(capAmerica["Age"])
 console.log(capAmerica["Friends"])
 console.log(capAmerica["address"]['city'])
 capAmerica["sayHi"]()
 
 // OR
-
+// object.key
 console.log(capAmerica.Name)
 console.log(capAmerica.Age)
 console.log(capAmerica.Friends)
