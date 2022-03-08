@@ -12,6 +12,8 @@ let detail = {
 
 console.log(detail)
 
+// Nested Objects
+
 let capAmerica = {
     Name : "Steve",
     Age : 9999,
@@ -25,7 +27,19 @@ let capAmerica = {
     }
 }
 
+// Ways to access Objects
 console.log(capAmerica["Age"])
 console.log(capAmerica["Friends"])
 console.log(capAmerica["address"]['city'])
 capAmerica["sayHi"]()
+
+// OR
+
+console.log(capAmerica.Name)
+console.log(capAmerica.Age)
+console.log(capAmerica.Friends)
+console.log(capAmerica.Friends[2])
+console.log(capAmerica.address)
+console.log(capAmerica.address.city)
+capAmerica.sayHi()
+console.log(capAmerica.qwerty)
