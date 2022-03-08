@@ -11,3 +11,21 @@ let detail = {
 }
 
 console.log(detail)
+
+let capAmerica = {
+    Name : "Steve",
+    Age : 9999,
+    Friends : ['Natasha', 'Hulk', 'Thor', 'Tony', 'Bucky'],
+    address : {
+        city : "Queens",
+        state : "Haryana"
+    },
+    sayHi : function(){
+        console.log("Captain America says Hiiii")
+    }
+}
+
+console.log(capAmerica["Age"])
+console.log(capAmerica["Friends"])
+console.log(capAmerica["address"])
+capAmerica["sayHi"]()
