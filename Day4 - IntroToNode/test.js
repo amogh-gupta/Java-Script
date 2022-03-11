@@ -1,0 +1,1 @@
+console.log("Hello, you are in test.js file")
