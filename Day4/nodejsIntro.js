@@ -8,10 +8,13 @@ let cp = require('child_process')
 // Run the js file and print its output
 // create new js file and name it as test.js
 let content = cp.execSync("node test.js")
-console.log(content)
-console.log("output of test.js file " + content)
+console.log(content) // Return buffer type output  
+console.log("output of test.js file " + content) // Return String type output
+
+// add "" before the variable to convert its output into string --> console.log(""+variable)
 
 // Using child process to execute Git commands
-console.log(""+cp.execSync("git status"))
-console.log(""+cp.execSync("git add ."))
-console.log(""+cp.execSync('git commit -m "Child process for opening and storing other js file and execute Git commands"'))
+cp.execSync("git status")
+cp.execSync("git add .")
+cp.execSync('git commit -m "Child process for opening and storing other js file and execute Git commands"')
+console.log(""+cp.execSync("git push"))
