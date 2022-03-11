@@ -44,3 +44,18 @@ console.log(capAmerica.address)
 console.log(capAmerica.address.city)
 capAmerica.sayHi()
 console.log(capAmerica.qwerty)
+
+// Adding a ney key value in a object
+console.log("Object before adding a new key: ", capAmerica)
+capAmerica.Movies = ['Avenger', 'Civil War', 'Endgame']
+console.log("Object after adding a new key: ", capAmerica)
+
+// Delete a key from Object
+console.log("Object before delecting a key: ", capAmerica)
+delete capAmerica.Movies
+console.log("Object after deleting a new key: ", capAmerica)
+
+// Changing object key's values
+console.log("Object before changing value of a key: ", capAmerica)
+capAmerica.address.state = "Washington DC"
+console.log("Object after changing value of a key: ", capAmerica)
