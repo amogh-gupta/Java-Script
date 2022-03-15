@@ -19,7 +19,11 @@ let fileName = path.join(__dirname, "file.txt")
 // console.log(content2); // this will return the file data in buffer type
 
 // 3) Update
-fs.appendFileSync(fileName,". Welcome to Java Script Tutorial") 
+// fs.appendFileSync(fileName,". Welcome to Java Script Tutorial") 
 // This will append the data that we are providing in the file insted of overwritting
 
-console.log(fs.readFileSync(fileName, 'utf-8')) // To read and display the content of file
+// console.log(fs.readFileSync(fileName, 'utf-8')) // To read and display the content of file
+
+// 4) Delete
+fs.unlinkSync(fileName);
+// This function will delete the file whose path is provided as argument
