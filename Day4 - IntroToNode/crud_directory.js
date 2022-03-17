@@ -7,3 +7,6 @@ let fs = require("fs")
 let readingFilePath = __dirname
 let fileContent = fs.readdirSync(readingFilePath)
 console.log(fileContent) // It will print an array of the file present in the provided direcory path
+
+// 3) Deleting directory
+fs.rmdirSync("hamariDirectory") // It will remove the directory if the directory is empty
