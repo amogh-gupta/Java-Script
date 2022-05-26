@@ -10,15 +10,15 @@ let str = "amogh"
 var char = "G"
 
 console.log(a,str,char)
-// use "node firstProgram.js" 
+// use "node firstProgram.js" IN TERMINAL
 // OUTPUT: 10 amogh G
 
 console.log(a+str+char)
-// use "node firstProgram.js" 
+// use "node firstProgram.js" IN TERMINAL
 // OUTPUT: 10amoghG
 
 for(let i=0; i<10; i++){
-    console.log(i); //semicolon(";") is ptional
+    console.log(i); //semicolon(";") is Optional
 }
 
 var x = 0
