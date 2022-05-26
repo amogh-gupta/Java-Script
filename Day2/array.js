@@ -23,3 +23,9 @@ console.log(arr);
 arr.shift();
 console.log(arr);
 // Output: - [ 'I', 'Am', 'Amogh' ]
+
+arr = ["I", "Am", "Amogh", "Gupta"]
+
+// Array Length
+console.log("arr Length is", arr.length);
+console.log("arr Length is " + arr.length); // print string
