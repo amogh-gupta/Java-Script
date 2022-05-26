@@ -32,11 +32,13 @@ function print(){
 }
 print()
 
+// Function are first class citizen in Javascript
 let fun = function(){
     console.log("Giving function reference to a variable")
 }
 fun();
 
+// IIFE:- Immediatelty Invoke Function Expression: - Will get invoked itself when running the java script 
 (function(){
     console.log("Function are called first class citizen");
 })();
