@@ -28,4 +28,10 @@ arr = ["I", "Am", "Amogh", "Gupta"]
 
 // Array Length
 console.log("arr Length is", arr.length);
-console.log("arr Length is " + arr.length); // print string
+console.log("arr Length is " + arr.length); // print length in string form
+
+// Sub Array
+let sliceArr = arr.slice(2,5);
+// let sliceArr = arr.slice(2);
+console.log(sliceArr);
+// Output: - [ 'Amogh', 'Gupta' ]
