@@ -42,3 +42,7 @@ fun();
 (function(){
     console.log("Function are called first class citizen");
 })();
+
+(function(num1, num2){
+    console.log(num1/num2);
+})(10,5);
