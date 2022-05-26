@@ -20,6 +20,10 @@ console.log(a+str+char)
 console.log(str.length); // returning length of the string 
 // OUTPUT: 5
 
+str = "I an Amogh gupta";
+let replaceStr = str.replace("an", "am")
+console.log(replaceStr);
+
 for(let i=0; i<10; i++){
     console.log(i); //semicolon(";") is Optional
 }

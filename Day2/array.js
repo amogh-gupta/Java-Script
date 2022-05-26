@@ -35,3 +35,4 @@ let sliceArr = arr.slice(2,5);
 // let sliceArr = arr.slice(2);
 console.log(sliceArr);
 // Output: - [ 'Amogh', 'Gupta' ]
+
