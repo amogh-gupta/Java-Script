@@ -25,3 +25,7 @@ console.log(fullName1)
 // Option 2
 let fullName2 = firstName.concat(" " + lastName);
 console.log(fullName2)
+
+// Split function
+let arr = replaceStr.split(" ")
+console.log(arr);
