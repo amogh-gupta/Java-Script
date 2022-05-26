@@ -13,3 +13,15 @@ console.log(uppercase);
 // String Lower case function
 let lowercase = replaceStr.toLowerCase()
 console.log(lowercase);
+
+// String Concatination
+let firstName = "Amogh"
+let lastName = "Gupta"
+
+// Option 1
+let fullName1 = firstName + " " + lastName
+console.log(fullName1)
+
+// Option 2
+let fullName2 = firstName.concat(" " + lastName);
+console.log(fullName2)
