@@ -1,3 +1,4 @@
+// Run this js file to update the content on Git in one click
 let cp = require("child_process")
 
 cp.execSync("git add -A")
