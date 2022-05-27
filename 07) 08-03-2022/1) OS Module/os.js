@@ -1,7 +1,7 @@
 let os = require('os')
 
 // Print the OS object 
-// console.log(os)
+console.log(os)
 
 // Print System HostName
 console.log(os.hostname())
