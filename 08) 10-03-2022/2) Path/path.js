@@ -20,3 +20,7 @@ console.log(baseName)
 // Getting the present folder path 
 let presentPath = __dirname;
 console.log(presentPath)
+
+// Getting the present file path
+let filePath = __filename;
+console.log(filePath)
