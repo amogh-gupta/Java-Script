@@ -9,12 +9,12 @@ let path = require("path");
 
 // Getting the extension name of the file like .html, .js, .zip, .cs
 let extensionName = path.extname("F:\WebDev\JavaScript\08) 10-03-2022\2) Path\path.js");
-console.log(__filename); 
+console.log(extensionName); 
 // OUTPUT: - .js
 
 // Getting the base name or file name of the file like abc.html, xyz.js, lmn.zip, uvw.cs
 let baseName = path.basename("F:\\WebDev\\JavaScript\\08) 10-03-2022\\2) Path\\path.js")
-console.log(__filename)
+console.log(baseName)
 // OUTPUT: - path.js 
 
 // Getting the present folder path 
