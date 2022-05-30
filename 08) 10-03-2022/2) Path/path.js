@@ -24,3 +24,7 @@ console.log(presentPath)
 // Getting the present file path
 let filePath = __filename;
 console.log(filePath)
+
+// Joining path and file name = present folder path + file name 
+let newFilePath = path.join(__dirname,"test.js");
+console.log(newFilePath)
