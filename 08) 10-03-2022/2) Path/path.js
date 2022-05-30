@@ -2,6 +2,7 @@
 
 // F:\WebDev\JavaScript\08) 10-03-2022\2) Path\path.js
 
+const { Console } = require("console");
 let path = require("path");
 // console.log(path);
 
@@ -10,4 +11,8 @@ let path = require("path");
 let extensionName = path.extname("F:\WebDev\JavaScript\08) 10-03-2022\2) Path\path.js");
 console.log(extensionName); 
 // OUTPUT: - .js
+
+let baseName = path.basename("F:\\WebDev\\JavaScript\\08) 10-03-2022\\2) Path\\path.js")
+console.log(baseName)
+// OUTPUT: - path.js 
 
