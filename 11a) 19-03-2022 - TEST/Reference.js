@@ -15,7 +15,6 @@
 // variables => var, let, const
 // ******
 // Objects   
-
 // Arrays  
 
 // arguments array
