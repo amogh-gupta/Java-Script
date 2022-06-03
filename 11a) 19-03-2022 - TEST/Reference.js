@@ -5,7 +5,6 @@
 // loops 
 // Strings & template Strings 
 // *********
-
 // let and dynamic behavior 
 // Functions and Function expressions AND IIFE ,arguments -> Youtube  
 // scope => block, Function, global, lexical
